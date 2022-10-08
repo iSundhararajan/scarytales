@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Wild West</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>People Under the Floor</h2>
+  <p1 style="color:#8B140D">Story: In 1870, a man was making his way through the lonely mountains of New Mexico when he came across a stout wood cabin tucked at the foot of the Palo Flechado pass. The owner introduced himself as Charles Kennedy and invited his new acquaintance inside for a meal.As Kennedy’s Ute wife served dinner, the traveler sat next to the couple’s young son and asked if there were other Native Americans nearby. The boy looked back at him for a moment and then answered: “Can’t you smell the one Papa put under the floor?”</p1>
+
+    
+  <!-- pUT THIS ON ALL PAGES FOR MUSIC -->
+  <iframe src="sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+    <source src="sound/horror.mp3" type="audio/mp3">
+</audio>
+  <!-- END MUSIC --> 
+
+</body>
+<script>
+  
+  let utterance = new SpeechSynthesisUtterance("People Under the Floor");
+speechSynthesis.speak(utterance);
+
+</script>

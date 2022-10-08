@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Wild West</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Lawless Horrell Boys 1873-1878</h2>
+  <p1 style="color:#8B140D">Gunfight at the Lampasas Saloon: In January 187, Lampas County Sheriff attempted to arrest two of the brothers but it only lead to the sheriff’s death. 
+What did the County Judge do in response?”</p1>
+    <div class="choices">
+    <a href="wrong.html">Jail the brothers</a>
+    <a href="testingzen2.html">Prohibit sidearms</a>
+    <a href="wrong.html">Ban the brothers</a>
+    <a href="wrong.html">Ban the brothers</a>
+  </div>
+
+    
+  <!-- PUT THIS ON ALL PAGES FOR MUSIC -->
+  <iframe src="sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+    <source src="sound/horror.mp3" type="audio/mp3">
+</audio>
+  <!-- END MUSIC --> 
+
+</body>
+<script>
+  
+  let utterance = new SpeechSynthesisUtterance("The Gunfight at the lampsas saloon In January 187, Lampas County Sheriff attempted to arrest two of the brothers but it only lead to the sheriff’s death. ");
+speechSynthesis.speak(utterance);
+
+</script>

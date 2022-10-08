@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Wild West</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Can you survive</h2>
+    <h1>The horror, wild west story?</h1>
+    <h3>don't blame us for your nightmares</h3>
+    <a href="story.html">Start</a>
+    <a href="testingzen.html">ignore</a>
+  <!-- pUT THIS ON ALL PAGES FOR MUSIC -->
+  <iframe src="sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+    <source src="sound/horror.mp3" type="audio/mp3">
+</audio>
+  <!-- END MUSIC --> 
+
+    
+</body>
+<script>
+  
+  let utterance = new SpeechSynthesisUtterance("Welcome to the wild west. don't blame us for your nightmares. proceed with caution");
+speechSynthesis.speak(utterance);
+
+</script>
+</html>

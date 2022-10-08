@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Wild West</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Lawless Horrell Boys 1873-1878</h2>
+  <p1 style="color:#8B140D">These five brothers were outlaws of the old west who committed many murders…”</p1>
+  <a href="testingzen1.html">Gunfight at the Lampasas Saloon</a>
+
+    
+  <!-- PUT THIS ON ALL PAGES FOR MUSIC -->
+  <iframe src="sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+    <source src="sound/horror.mp3" type="audio/mp3">
+</audio>
+  <!-- END MUSIC --> 
+
+</body>
+<script>
+  
+  let utterance = new SpeechSynthesisUtterance("Lawless Horrell Boys 1873-1878");
+speechSynthesis.speak(utterance);
+
+</script>
